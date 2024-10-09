@@ -1,6 +1,6 @@
 import { FC } from "react";
 
-import styles from "@/styles/Panel.module.css";
+import styles from "../../styles/Panel.module.css";
 
 export interface PanelProps {
   backgroundImageUrl: string;

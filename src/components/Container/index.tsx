@@ -2,7 +2,7 @@ import { FC, useState } from "react";
 
 import Panel from "../Panel";
 
-import styles from "@/styles/Container.module.css";
+import styles from "../../styles/Container.module.css";
 
 interface PanelType {
   backgroundImageUrl: string;
