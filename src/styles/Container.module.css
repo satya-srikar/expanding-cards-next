@@ -1,0 +1,14 @@
+.container {
+  display: flex;
+  width: 90%;
+  height: 90%;
+  overflow: hidden;
+}
+
+/* Media query for screens smaller than 768px (phones and small tablets) */
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+    width: 100%;
+  }
+}
