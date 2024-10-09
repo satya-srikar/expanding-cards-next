@@ -1,3 +1,29 @@
+# Expanding Cards Application
+
+This is a simple web application built using **Next.js** and **TypeScript**, designed to demonstrate beginner-level HTML, CSS, and JavaScript (enhanced with React components and TypeScript types). The application allows users to click on an image card, which will expand the selected card while contracting all other cards.
+
+## How It Works
+
+- The page displays five image cards with labels like "Parking Lot," "Traffic," etc.
+- When a user clicks on a card, the selected card expands, showing more of the image.
+- All other cards automatically contract, ensuring only one card is expanded at a time.
+- The application is fully responsive and works seamlessly on mobile and desktop.
+
+## Technologies Used
+
+- **Next.js**: A React-based framework for building fast, optimized web applications with static site generation and server-side rendering.
+- **TypeScript**: A superset of JavaScript that adds static typing for improved code quality and development experience.
+- **HTML & CSS**: Defines the structure and visual styling of the application.
+- **JavaScript/TypeScript**: Adds interactivity for expanding and contracting the image cards.
+
+## Setup Instructions
+
+1. Clone or download the project files to your local machine.
+2. Install dependencies using `npm install` or `yarn install`.
+3. Run the project locally with `npm run dev` or `yarn dev`.
+4. Open the app in your browser at `http://localhost:3000`.
+5. Click on any card to see the expand/contract functionality in action.
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
